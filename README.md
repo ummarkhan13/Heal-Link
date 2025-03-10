@@ -97,10 +97,6 @@ We welcome contributions! Follow these steps:
 
 ## License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact 📧
-For queries or feedback, reach out to us at:
-- **Email**: zulqarnain4292@gmail.com 📩
-- **Website**: [HealLink](https://zulqarnainportfolio.vercel.app/) 🌐
+ 🌐
 
 Thank you for using the Doctor Appointment Booking System! 😊
