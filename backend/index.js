@@ -31,10 +31,7 @@ app.use('/api', appointmentRoutes);
 app.use('/api', paymentRoutes); // Add payment routes
 
 // Database Connection
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB Connected'))
   .catch((error) => console.error('DB Connection Error:', error));
 
