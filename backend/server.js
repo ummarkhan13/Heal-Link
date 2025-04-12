@@ -19,6 +19,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+app.get('/', (req,res)=>{
+  res.status(200).json("Hello World")
+})
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api', profileRoutes);
